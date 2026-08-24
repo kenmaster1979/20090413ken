@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">画面拉伸测试</string>
+    <string name="restore_tile_label">还原分辨率</string>
+    <string name="why_letterbox">改系统分辨率（wm size）只会让 OriginOS 保比例留黑边，游戏不会像显卡那样自动拉满。下面改用「虚拟屏合成拉伸」：让游戏按 4:3 或 16:9 渲染，再把画面非等比铺满平板。</string>
+    <string name="warning_body">这会多一层画面合成，可能增加延迟。反作弊有可能识别虚拟屏。测试请用小号，并随时点左上角「退出」。本工具只改系统显示，不改游戏文件、不注入进程。</string>
+    <string name="shizuku_ok">Shizuku 已授权，可以用 shell 身份创建虚拟屏</string>
+    <string name="shizuku_need_permission">Shizuku 已运行，点下面按钮授权</string>
+    <string name="shizuku_not_running">Shizuku 未运行。请用无线调试（不要用 Root）启动 Shizuku</string>
+    <string name="authorize">授权 Shizuku</string>
+    <string name="reset_wm">还原系统分辨率</string>
+    <string name="pick_app">选择要拉伸的应用</string>
+    <string name="ratio_43">4:3 端游式（人物变宽）</string>
+    <string name="ratio_169">16:9 填黑边（上下拉开）</string>
+    <string name="force_stop">启动前先强制停止应用（推荐，避免游戏还停在主屏）</string>
+    <string name="start_stretch">开始合成拉伸</string>
+    <string name="exit_stretch">退出</string>
+    <string name="search_apps">搜索应用</string>
+    <string name="no_app_selected">还没选择应用</string>
+    <string name="need_shizuku">请先让 Shizuku 就绪并授权</string>
+    <string name="restore_done">已执行 wm size reset / wm density reset</string>
+    <string name="current_wm">当前系统分辨率：%1$s</string>
+    <string name="physical_size">物理屏幕：%1$d × %2$d  dpi %3$d</string>
+    <string name="virtual_size">虚拟屏将使用：%1$d × %2$d  dpi %3$d</string>
+</resources>
